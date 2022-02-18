@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.32106.194
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DLWMSApi", "DLWMSApi\DLWMSApi.csproj", "{97FCDD16-CFF4-4BE4-BB0A-5A8C4D5F2D6D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{97FCDD16-CFF4-4BE4-BB0A-5A8C4D5F2D6D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{97FCDD16-CFF4-4BE4-BB0A-5A8C4D5F2D6D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{97FCDD16-CFF4-4BE4-BB0A-5A8C4D5F2D6D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{97FCDD16-CFF4-4BE4-BB0A-5A8C4D5F2D6D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {4252A98A-DF3C-4135-A07C-39F604CC8D90}
+	EndGlobalSection
+EndGlobal
