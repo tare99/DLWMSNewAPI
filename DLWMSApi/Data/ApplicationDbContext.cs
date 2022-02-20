@@ -10,5 +10,7 @@ namespace DLWMSApi.Data
     public class ApplicationDbContext : DbContext
     {
         public DbSet<FileDetail> FileDetail {get;set;}
+        public ApplicationDbContext(DbContextOptions options) : base(options) { }
     }
+
 }
