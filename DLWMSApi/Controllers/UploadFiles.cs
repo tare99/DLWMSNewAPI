@@ -9,9 +9,17 @@ using System.IO;
 namespace DLWMSApi.Controllers
 {
     [ApiController]
-    [Route("[controller]")]
+    [Route("[controller]/[action]")]
     public class UploadFiles : Controller
     {
+
+        [HttpGet]
+        public  string[] SendFiles()
+        {
+            string[] fajlovi = Directory.GetFiles(@"C:\Users\Tarik\source\repos\DLWMSApi\DLWMSApi\Uploads\");
+            return fajlovi;
+        }
+
         [HttpPost]
         public async Task<IActionResult> OnPostUploadAsync(List<IFormFile> files)
         {
@@ -32,5 +40,7 @@ namespace DLWMSApi.Controllers
 
             return Ok(new { count = files.Count, size });
         }
+
+       
     }
 }
